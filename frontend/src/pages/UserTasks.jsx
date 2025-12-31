@@ -6,7 +6,6 @@ import Input from '../components/Input';
 import { toast } from 'react-toastify';
 
 const UserTasks = () => {
-    console.log('UserTasks component rendering');
     const { user } = useContext(AuthContext);
     const [tasks, setTasks] = useState([]);
     const [loading, setLoading] = useState(true);
